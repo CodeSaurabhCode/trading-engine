@@ -1,0 +1,124 @@
+{
+  "symbols": [
+    {
+      "token": "26000",
+      "tradingSymbol": "Nifty 50",
+      "searchName": "NIFTY 50",
+      "displayName": "NIFTY 50",
+      "exchange": "NSE",
+      "type": "INDEX"
+    },
+    {
+      "token": "26009",
+      "tradingSymbol": "Nifty Bank",
+      "searchName": "NIFTY BANK",
+      "displayName": "NIFTY BANK",
+      "exchange": "NSE",
+      "type": "INDEX"
+    },
+    {
+      "token": "26013",
+      "tradingSymbol": "Nifty Next 50",
+      "searchName": "NIFTY NEXT 50",
+      "displayName": "NIFTY NEXT 50",
+      "exchange": "NSE",
+      "type": "INDEX"
+    },
+    {
+      "token": "2885",
+      "tradingSymbol": "RELIANCE-EQ",
+      "searchName": "RELIANCE",
+      "displayName": "RELIANCE",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "11536",
+      "tradingSymbol": "TCS-EQ",
+      "searchName": "TCS",
+      "displayName": "TCS",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "1594",
+      "tradingSymbol": "INFY-EQ",
+      "searchName": "INFY",
+      "displayName": "INFOSYS",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "1333",
+      "tradingSymbol": "HDFCBANK-EQ",
+      "searchName": "HDFCBANK",
+      "displayName": "HDFC BANK",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "4963",
+      "tradingSymbol": "ICICIBANK-EQ",
+      "searchName": "ICICIBANK",
+      "displayName": "ICICI BANK",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "3045",
+      "tradingSymbol": "SBIN-EQ",
+      "searchName": "SBIN",
+      "displayName": "SBI",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "11723",
+      "tradingSymbol": "WIPRO-EQ",
+      "searchName": "WIPRO",
+      "displayName": "WIPRO",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "16669",
+      "tradingSymbol": "TATAMOTORS-EQ",
+      "searchName": "TATAMOTORS",
+      "displayName": "TATA MOTORS",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "3499",
+      "tradingSymbol": "TATASTEEL-EQ",
+      "searchName": "TATASTEEL",
+      "displayName": "TATA STEEL",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "22",
+      "tradingSymbol": "ACC-EQ",
+      "searchName": "ACC",
+      "displayName": "ACC",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "13",
+      "tradingSymbol": "ABB-EQ",
+      "searchName": "ABB",
+      "displayName": "ABB",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    },
+    {
+      "token": "14977",
+      "tradingSymbol": "ADANIENT-EQ",
+      "searchName": "ADANIENT",
+      "displayName": "ADANI ENTERPRISES",
+      "exchange": "NSE",
+      "type": "EQUITY"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.trading-chart-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #131722;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+}

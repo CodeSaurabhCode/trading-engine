@@ -1,0 +1,243 @@
+.preset-strategies {
+  padding: 24px;
+  background: #131722;
+  color: #d1d4dc;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.preset-header {
+  margin-bottom: 32px;
+}
+
+.preset-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  color: #d1d4dc;
+}
+
+.subtitle {
+  margin: 0;
+  color: #787b86;
+  font-size: 14px;
+}
+
+.strategy-selection {
+  margin-bottom: 32px;
+}
+
+.strategy-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.strategy-card {
+  padding: 20px;
+  background: #1e222d;
+  border: 2px solid #2a2e39;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.strategy-card:hover {
+  border-color: #2962FF;
+  transform: translateY(-2px);
+}
+
+.strategy-card.selected {
+  border-color: #2962FF;
+  background: linear-gradient(135deg, #1e222d 0%, rgba(41, 98, 255, 0.1) 100%);
+  box-shadow: 0 4px 12px rgba(41, 98, 255, 0.2);
+}
+
+.strategy-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #d1d4dc;
+  margin-bottom: 8px;
+}
+
+.strategy-desc {
+  font-size: 13px;
+  color: #787b86;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.strategy-conditions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.condition-tag {
+  padding: 4px 8px;
+  background: rgba(41, 98, 255, 0.15);
+  color: #2962FF;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: 'Monaco', 'Courier New', monospace;
+}
+
+.strategy-params {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #1e222d;
+  border: 1px solid #2a2e39;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.strategy-params label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #d1d4dc;
+}
+
+.strategy-params input {
+  padding: 8px 12px;
+  background: #131722;
+  border: 1px solid #2a2e39;
+  border-radius: 4px;
+  color: #d1d4dc;
+  font-size: 14px;
+  width: 100px;
+}
+
+.btn-scan-large {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #2962FF 0%, #1E53E5 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(41, 98, 255, 0.3);
+}
+
+.btn-scan-large:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(41, 98, 255, 0.4);
+}
+
+.btn-scan-large:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.scan-results {
+  margin-top: 32px;
+}
+
+.results-header {
+  margin-bottom: 20px;
+}
+
+.results-header h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #d1d4dc;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.match-count {
+  font-size: 14px;
+  color: #787b86;
+  font-weight: 400;
+}
+
+.results-table-container {
+  background: #1e222d;
+  border: 1px solid #2a2e39;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table thead {
+  background: #131722;
+  border-bottom: 2px solid #2a2e39;
+}
+
+.results-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #787b86;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.results-table tbody tr {
+  border-bottom: 1px solid #2a2e39;
+  transition: background 0.2s;
+}
+
+.results-table tbody tr:hover {
+  background: rgba(41, 98, 255, 0.05);
+}
+
+.results-table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #d1d4dc;
+}
+
+.symbol-cell {
+  font-weight: 600;
+  color: #2962FF;
+}
+
+.price-cell {
+  font-weight: 600;
+  font-family: 'Monaco', 'Courier New', monospace;
+}
+
+.positive {
+  color: #26a69a;
+  font-weight: 600;
+}
+
+.negative {
+  color: #ef5350;
+  font-weight: 600;
+}
+
+.near {
+  color: #FFA726;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-badge.matched {
+  background: rgba(38, 166, 154, 0.2);
+  color: #26a69a;
+}
+
+.matched-row {
+  background: linear-gradient(90deg, rgba(38, 166, 154, 0.05) 0%, transparent 100%);
+}
